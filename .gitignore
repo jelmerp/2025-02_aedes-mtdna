@@ -1,2 +1,7 @@
 data/
 results/
+sandbox/
+misc/
+manuscript/
+.DS_Store
+*.Rproj
