@@ -1,7 +1,9 @@
 data/
 results/
 sandbox/
+scripts/sandbox/
 misc/
 manuscript/
 .DS_Store
 *.Rproj
+.Rproj.user
