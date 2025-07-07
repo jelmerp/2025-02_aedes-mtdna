@@ -1,0 +1,24 @@
+name: /fs/ess/PAS0471/jelmer/conda/mafft
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=4.5
+  - gawk=5.3.0
+  - gettext=0.22.5
+  - gettext-tools=0.22.5
+  - gmp=6.3.0
+  - libasprintf=0.22.5
+  - libasprintf-devel=0.22.5
+  - libgcc-ng=12.2.0
+  - libgettextpo=0.22.5
+  - libgettextpo-devel=0.22.5
+  - libgomp=12.2.0
+  - libstdcxx-ng=13.2.0
+  - mafft=7.525
+  - mpfr=4.2.1
+  - ncurses=6.5
+  - readline=8.2
+prefix: /fs/ess/PAS0471/jelmer/conda/mafft

@@ -1,0 +1,4 @@
+# Version of this shell script:
+clipkit.sh by Jelmer Poelstra, version 2025-01-04 (https://github.com/mcic-osu/mcic-scripts)
+# Version of ClipKIT:
+clipkit 2.3.0

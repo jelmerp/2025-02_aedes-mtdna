@@ -1,0 +1,85 @@
+
+[2025-03-02 14:27:47] Using a container with base call: singularity exec /fs/ess/PAS0471/containers/clipkit_2.3.0--696fa0f33ad2b776.sif
+
+[2025-03-02 14:27:47] Starting script clipkit.sh, version 2025-01-04
+==========================================================================
+All options passed to this script:        -i results/aligned/COI_aln.fa -o results/clipkit
+Input file:                               results/aligned/COI_aln.fa
+Output file:                              results/clipkit/COI_aln.fa
+
+[2025-03-02 14:27:47] Listing the input file(s):
+-rw-r--r-- 1 jelmer PAS0471 49K Mar  2 14:24 results/aligned/COI_aln.fa
+
+[2025-03-02 14:27:47] SLURM job information:
+Account (project):                        pas0471
+Job ID:                                   659872
+Job name:                                 clipkit
+Memory (GB per node):                     4
+CPUs (on node):                           1
+Time limit (minutes):                     60
+==========================================================================
+
+
+[2025-03-02 14:27:47] Running ClipKIT...
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+
+-------------
+| Arguments |
+-------------
+Input file: results/aligned/COI_aln.fa (format: fasta)
+Output file: results/clipkit/COI_aln.fa (format: fasta)
+Sequence type: Nucleotides
+Gaps threshold: 0.9836
+Gap characters: ['-', '?', '*', 'X', 'x', 'N', 'n']
+Trimming mode: smart-gap
+Create complementary output: False
+Process as codons: False
+Create log file: False
+
+
+------------------------
+| Writing output files |
+------------------------
+Trimmed alignment: results/clipkit/COI_aln.fa
+Complement file: False
+Log file: False
+
+
+---------------------
+| Output Statistics |
+---------------------
+Original length: 788
+Number of sites kept: 739
+Number of sites trimmed: 49
+Percentage of alignment trimmed: 6.218%
+
+Execution time: 0.117s
+
+
+# Ran the command: 
+singularity exec /fs/ess/PAS0471/containers/clipkit_2.3.0--696fa0f33ad2b776.sif clipkit results/aligned/COI_aln.fa --output results/clipkit/COI_aln.fa --mode smart-gap
+        
+# Run stats by /usr/bin/time:
+        Time: 0:01.79   CPU: 45%    Max mem: 46216 K    Exit status: 0 
+
+
+[2025-03-02 14:27:49] Listing files in the output dir:
+-rw-r--r-- 1 jelmer PAS0471  46K Mar  2 14:27 /fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps/results/clipkit/COI_aln.fa
+-rw-r--r-- 1 jelmer PAS0471  45K Feb 16 16:56 /fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps/results/clipkit/COI_noWooster2024_14_aln.fa
+drwxr-xr-x 2 jelmer PAS0471 4.0K Feb 16 16:56 /fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps/results/clipkit/logs
+-rw-r--r-- 1 jelmer PAS0471 3.3K Feb 16 16:56 /fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps/results/clipkit/slurm-clipkit-539176.out
+
+======================================================================
+[2025-03-02 14:27:49] Versions used:
+# Version of ClipKIT:
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+clipkit 2.3.0
+# Version of this shell script:
+clipkit.sh by Jelmer Poelstra, version 2025-01-04 (https://github.com/mcic-osu/mcic-scripts)
+
+JobID                                                           AllocTRES    Elapsed    CPUTime 
+------------ ------------------------------------------------------------ ---------- ---------- 
+659872                                      billing=1,cpu=1,mem=4G,node=1   00:00:04   00:00:04 
+
+[2025-03-02 14:27:50] Done with script clipkit.sh
+

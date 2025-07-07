@@ -1,0 +1,82 @@
+
+[2025-03-03 12:08:22] Loading Conda environment /fs/ess/PAS0471/jelmer/conda/clipkit
+
+[2025-03-03 12:08:22] Starting script clipkit.sh, version 2025-01-04
+==========================================================================
+All options passed to this script:        -i results/aligned/COI_withrefs_aln.fa -o results/clipkit
+Input file:                               results/aligned/COI_withrefs_aln.fa
+Output file:                              results/clipkit/COI_withrefs_aln.fa
+
+[2025-03-03 12:08:22] Listing the input file(s):
+-rw-r--r-- 1 jelmer PAS0471 45K Mar  3 12:06 results/aligned/COI_withrefs_aln.fa
+
+[2025-03-03 12:08:22] SLURM job information:
+Account (project):                        pas0471
+Job ID:                                   662332
+Job name:                                 clipkit
+Memory (GB per node):                     4
+CPUs (on node):                           1
+Time limit (minutes):                     60
+==========================================================================
+
+
+[2025-03-03 12:08:22] Running ClipKIT...
+
+-------------
+| Arguments |
+-------------
+Input file: results/aligned/COI_withrefs_aln.fa (format: fasta)
+Output file: results/clipkit/COI_withrefs_aln.fa (format: fasta)
+Sequence type: Nucleotides
+Gaps threshold: 0.5833
+Gap characters: ['-', '?', '*', 'X', 'x', 'N', 'n']
+Trimming mode: smart-gap
+Create complementary output: False
+Process as codons: False
+Create log file: False
+
+
+------------------------
+| Writing output files |
+------------------------
+Trimmed alignment: results/clipkit/COI_withrefs_aln.fa
+Complement file: False
+Log file: False
+
+
+---------------------
+| Output Statistics |
+---------------------
+Original length: 729
+Number of sites kept: 677
+Number of sites trimmed: 52
+Percentage of alignment trimmed: 7.133%
+
+Execution time: 0.086s
+
+
+# Ran the command: 
+clipkit results/aligned/COI_withrefs_aln.fa --output results/clipkit/COI_withrefs_aln.fa --mode smart-gap
+        
+# Run stats by /usr/bin/time:
+        Time: 0:04.42   CPU: 5%    Max mem: 37536 K    Exit status: 0 
+
+
+[2025-03-03 12:08:27] Listing files in the output dir:
+-rw-r--r-- 1 jelmer PAS0471  46K Mar  2 14:27 /fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps/results/clipkit/COI_aln.fa
+-rw-r--r-- 1 jelmer PAS0471  42K Mar  3 12:08 /fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps/results/clipkit/COI_withrefs_aln.fa
+drwxr-xr-x 2 jelmer PAS0471 4.0K Mar  2 14:28 /fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps/results/clipkit/logs
+
+======================================================================
+[2025-03-03 12:08:28] Versions used:
+# Version of ClipKIT:
+clipkit 2.3.0
+# Version of this shell script:
+clipkit.sh by Jelmer Poelstra, version 2025-01-04 (https://github.com/mcic-osu/mcic-scripts)
+
+JobID                                                           AllocTRES    Elapsed    CPUTime 
+------------ ------------------------------------------------------------ ---------- ---------- 
+662332                                      billing=1,cpu=1,mem=4G,node=1   00:00:08   00:00:08 
+
+[2025-03-03 12:08:29] Done with script clipkit.sh
+

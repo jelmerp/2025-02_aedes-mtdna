@@ -1,0 +1,4 @@
+# Version of this shell script:
+align_fa.sh by Jelmer Poelstra, version 2025-02-16 (https://github.com/mcic-osu/mcic-scripts)
+# Version of MAFFT:
+v7.525 (2024/Mar/13)

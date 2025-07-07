@@ -1,0 +1,7 @@
+# Version of this shell script:
+iqtree.sh by Jelmer Poelstra, version 2023-10-23 (https://github.com/mcic-osu/mcic-scripts)
+# Version of IQ-tree:
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Linux 64-bit built Jun  7 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+

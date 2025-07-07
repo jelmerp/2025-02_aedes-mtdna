@@ -1,0 +1,260 @@
+ ;;
+ ;;
+ ;;
+}
+}
+}
+ACL_BOARD_VENDOR_PATH=/opt/Intel/OpenCLFPGA/oneAPI/Boards
+ACLOCAL_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/share/aclocal
+BASH_ENV=/apps/lmod/lmod/init/bash
+BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"
+BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+BASH_FUNC_which%%=() {  ( alias;
+BROWSER=/users/PAS0471/jelmer/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh
+ case "$-" in 
+CC=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/bin/intel64/icc
+_CE_CONDA=
+_CE_M=
+CMAKE_PREFIX_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/IntelDPCPP:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers-classic/gcc/11.3.1/2021.10.0-6xj4c3p
+CMPLR_ROOT=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3
+COLORTERM=truecolor
+CONDA_DEFAULT_ENV=/fs/ess/PAS0471/jelmer/conda/clipkit
+CONDA_EXE=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/bin/conda
+CONDA_PREFIX=/fs/ess/PAS0471/jelmer/conda/clipkit
+CONDA_PROMPT_MODIFIER=(clipkit)
+CONDA_PYTHON_EXE=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/bin/python
+CONDA_SHLVL=1
+CPATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/include:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib/oclfpga/include
+CVS_RSH=ssh
+CXX=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/bin/intel64/icpc
+DIAGUTIL_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/sys_check/sys_check.sh
+ echo "Shell debugging restarted" 1>&2;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ENVIRONMENT=BATCH
+ esac;
+ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+F77=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/bin/intel64/ifort
+FC=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/bin/intel64/ifort
+ fi;
+ fi;
+ fi;
+FPGA_VARS_ARGS=
+FPGA_VARS_DIR=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib/oclfpga
+GIT_ASKPASS=/users/PAS0471/jelmer/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh
+GNU_MKL_LIBS=-L/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib -lmkl_gf_lp64 -lmkl_gnu_thread -lmkl_core -lgomp -lpthread -lm -ldl
+GNU_MKL_LIBS_SEQ=-L/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib -lmkl_gf_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -ldl
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+GSETTINGS_SCHEMA_DIR=/fs/ess/PAS0471/jelmer/conda/seqkit/share/glib-2.0/schemas
+HISTCONTROL=ignoredups
+HISTSIZE=1000
+HOME=/users/PAS0471/jelmer
+HOSTNAME=c0326
+HYDRA_BOOTSTRAP=slurm
+HYDRA_LAUNCHER_EXTRA_ARGS=--external-launcher
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS=--external-launcher
+I_MPI_HYDRA_BOOTSTRAP=slurm
+__Init_Default_Modules=1
+INTELFPGAOCLSDKROOT=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib/oclfpga
+INTEL_ONEAPI_COMPILERS_CLASSIC_HOME=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers-classic/gcc/11.3.1/2021.10.0-6xj4c3p
+INTEL_ONEAPI_MKL_HOME=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty
+JAVA_HOME=/fs/ess/PAS0471/jelmer/conda/seqkit/lib/jvm
+JAVA_LD_LIBRARY_PATH=/fs/ess/PAS0471/jelmer/conda/seqkit/lib/jvm/lib/server
+KDEDIRS=/usr
+LANG=en_US.UTF-8
+LD_LIBRARY_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/lib:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/lib:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib/intel64:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/lib:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib/x64:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib/oclfpga/host/linux64/lib:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/compiler/lib/intel64_lin:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers-classic/gcc/11.3.1/2021.10.0-6xj4c3p/lib:/apps/hpcx/2.17.1/ucx/mt/lib:/apps/hpcx/2.17.1/ucx/mt/lib/ucx
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LIBRARY_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib/intel64:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/compiler/lib/intel64_lin:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib
+_LMFILES_=/apps/spack/lmodfiles/Core/intel-oneapi-mkl/2023.2.0.lua:/apps/spack/lmodfiles/Core/intel/2021.10.0.lua:/apps/spack/0.21/cardinal/lmodfiles/intel/2021.10.0/mvapich/3.0.lua:/apps/lmodfiles/Core/modules/sp2024.lua:/apps/spack/lmodfiles/Core/miniconda3/24.1.2-py310.lua
+LMOD_arch=x86_64
+LMOD_AVAIL_STYLE=system
+LMOD_CACHED_LOADS=yes
+LMOD_CMD=/apps/lmod/lmod/libexec/lmod
+LMOD_COLORIZE=yes
+LMOD_DIR=/apps/lmod/lmod/libexec
+LMOD_FAMILY_COMPILER=intel
+LMOD_FAMILY_COMPILER_VERSION=2021.10.0
+LMOD_FAMILY_MPI=mvapich
+LMOD_FAMILY_MPI_VERSION=3.0
+LMOD_FULL_SETTARG_SUPPORT=no
+LMOD_MPI_NAME=mvapich
+LMOD_MPI_VERSION=3.0-mmriusu
+ __lmod_my_status=$?;
+LMOD_PACKAGE_PATH=/apps/lmodfiles/site
+LMOD_PKG=/apps/lmod/lmod
+LMOD_PREPEND_BLOCK=normal
+__LMOD_REF_COUNT_ACL_BOARD_VENDOR_PATH=/opt/Intel/OpenCLFPGA/oneAPI/Boards:1
+__LMOD_REF_COUNT_ACLOCAL_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/share/aclocal:1
+__LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/IntelDPCPP:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers-classic/gcc/11.3.1/2021.10.0-6xj4c3p:1
+__LMOD_REF_COUNT_CPATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/include:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib/oclfpga/include:1
+__LMOD_REF_COUNT_DIAGUTIL_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/sys_check/sys_check.sh:1
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/lib:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/lib:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib/intel64:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/lib:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib/x64:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib/oclfpga/host/linux64/lib:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/compiler/lib/intel64_lin:2;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers-classic/gcc/11.3.1/2021.10.0-6xj4c3p/lib:1;/apps/hpcx/2.17.1/ucx/mt/lib:1;/apps/hpcx/2.17.1/ucx/mt/lib/ucx:1
+__LMOD_REF_COUNT_LIBRARY_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib/intel64:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/compiler/lib/intel64_lin:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib:1
+__LMOD_REF_COUNT_MANPATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/share/man:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/man:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/share/man:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/documentation/en/man/common:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers-classic/gcc/11.3.1/2021.10.0-6xj4c3p/man:1;/apps/lmod/lmod/share/man:1;/opt/puppetlabs/puppet/share/man:1;:3
+__LMOD_REF_COUNT_MODULEPATH=/apps/lmodfiles/MPI/intel/2021.10/mvapich/3.0:1;/apps/spack/0.21/cardinal/lmodfiles/mvapich/3.0-mmriusu/intel/2021.10.0:1;/apps/lmodfiles/Compiler/intel/2021.10:1;/apps/spack/0.21/cardinal/lmodfiles/intel/2021.10.0:1;/apps/lmodfiles/Linux:1;/apps/lmodfiles/Core:1;/apps/spack/lmodfiles/Core:1;/apps/lmod/lmod/modulefiles/Core:1
+__LMOD_REF_COUNT_NLSPATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib/intel64/locale/%l_%t/%N:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/compiler/lib/intel64_lin/locale/%l_%t/%N:1
+__LMOD_REF_COUNT_OCL_ICD_FILENAMES=libintelocl_emu.so:1;libalteracl.so:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib/x64/libintelocl.so:1
+__LMOD_REF_COUNT_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/condabin:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/bin:1;/fs/ess/PAS0471/jelmer/conda/seqkit/bin:1;/users/PAS0471/jelmer/micromamba/condabin:1;/apps/xalt/xalt/bin:1;/opt/mvapich2/intel/19.0/2.3.3/bin:1;/apps/gnu/8.4.0/bin:1;/opt/intel/19.0.5/itac_latest/bin:1;/opt/intel/19.0.5/advisor/bin64:1;/opt/intel/19.0.5/vtune_amplifier/bin64:1;/opt/intel/19.0.5/inspector_2019/bin64:1;/opt/intel/19.0.5/compilers_and_libraries_2019/linux/bin/intel64:1;/apps/software_usage:1;/usr/lib64/qt-3.3/bin:1;/opt/osc/bin:1;/opt/moab/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/ibutils/bin:1;/opt/ddn/ime/bin:1;/opt/puppetlabs/bin:1;/users/PAS0471/jelmer/software/bin:1;/users/PAS0471/jelmer/.local/bin:1
+__LMOD_REF_COUNT_PKG_CONFIG_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/lib/pkgconfig:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/lib/pkgconfig:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib/pkgconfig:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/lib/pkgconfig:1;/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/lib/pkgconfig:1
+LMOD_ROOT=/apps/lmod
+LMOD_SETTARG_CMD=:
+LMOD_SETTARG_FULL_SUPPORT=no
+ __lmod_sh_dbg='v'
+ __lmod_sh_dbg='vx'
+ __lmod_sh_dbg='x'
+LMOD_SITE_NAME=OSC
+LMOD_sys=Linux
+LMOD_SYSTEM_DEFAULT_MODULES=modules
+LMOD_SYSTEM_NAME=cardinal
+LMOD_VERSION=8.7.34
+LOADEDMODULES=intel-oneapi-mkl/2023.2.0:intel/2021.10.0:mvapich/3.0:modules/sp2024:miniconda3/24.1.2-py310
+LOGNAME=jelmer
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:
+MAIL=/var/spool/mail/jelmer
+MAMBA_EXE=/users/PAS0471/jelmer/.local/bin/micromamba
+MAMBA_ROOT_PREFIX=/users/PAS0471/jelmer/micromamba
+MANPATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/share/man:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/man:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/share/man:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/documentation/en/man/common:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers-classic/gcc/11.3.1/2021.10.0-6xj4c3p/man:/apps/lmod/lmod/share/man:/opt/puppetlabs/puppet/share/man::
+MINICONDA3_HOME=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5
+MKL_CFLAGS=-I/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/include
+MKL_CFLAGS_INT64=-DMKL_ILP64 -I/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/include
+MKL_CLUSTER_LIBS_INT64=-L/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib -lmkl_scalapack_ilp64 -lmkl_cdft_core -lmkl_intel_ilp64 -lmkl_intel_thread -lmkl_core -lmkl_blacs_intelmpi_ilp64 -liomp5 -lpthread -lm -ldl
+MKL_CLUSTER_LIBS=-L/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib -lmkl_scalapack_lp64 -lmkl_cdft_core -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -lmkl_blacs_intelmpi_lp64 -liomp5 -lpthread -lm -ldl
+MKL_FFLAGS=-I/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/include
+MKL_FFLAGS_INT64=-i8 -I/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/include
+MKL_LIBS_INT64=-L/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib -lmkl_intel_ilp64 -lmkl_intel_thread -lmkl_core -liomp5 -lpthread -lm -ldl
+MKL_LIBS=-L/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -liomp5 -lpthread -lm -ldl
+MKL_LIBS_SEQ_INT64=-L/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib -lmkl_intel_ilp64 -lmkl_sequential -lmkl_core -lpthread -lm -ldl
+MKL_LIBS_SEQ=-L/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -ldl
+MKLROOT=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0
+MKL_SCALAPACK_LIBS_INT64=-L/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib -lmkl_scalapack_ilp64 -lmkl_intel_ilp64 -lmkl_intel_thread -lmkl_core -lmkl_blacs_intelmpi_ilp64 -liomp5 -lpthread -lm -ldl
+MKL_SCALAPACK_LIBS=-L/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib -lmkl_scalapack_lp64 -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -lmkl_blacs_intelmpi_lp64 -liomp5 -lpthread -lm -ldl
+MODULEPATH=/apps/lmodfiles/MPI/intel/2021.10/mvapich/3.0:/apps/spack/0.21/cardinal/lmodfiles/mvapich/3.0-mmriusu/intel/2021.10.0:/apps/lmodfiles/Compiler/intel/2021.10:/apps/spack/0.21/cardinal/lmodfiles/intel/2021.10.0:/apps/lmodfiles/Linux:/apps/lmodfiles/Core:/apps/spack/lmodfiles/Core:/apps/lmod/lmod/modulefiles/Core
+MODULEPATH_ROOT=/apps/lmodfiles
+MODULESHOME=/apps/lmod/lmod
+_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IDcyMDAuMCwKY19zaG9ydFRpbWUgPSAwLjA3NjgyMDg1MDM3MjMxNCwKZGVwdGhUID0ge30sCmZhbWlseSA9IHsKY29tcGlsZXIgPSAiaW50ZWwiLAptcGkgPSAibXZhcGljaCIsCn0sCm1UID0gewppbnRlbCA9IHsKZm4gPSAiL2FwcHMvc3BhY2svbG1vZGZpbGVzL0NvcmUvaW50ZWwvMjAyMS4xMC4wLmx1YSIsCmZ1bGxOYW1lID0gImludGVsLzIwMjEuMTAuMCIsCmxvYWRPcmRlciA9IDIsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiaW50ZWwiLAp3ViA9ICIwMDAwMDIwMjEuMDAwMDAwMDEwLip6ZmluYWwiLAp9LApbImludGVs
+_ModuleTable002_=LW9uZWFwaS1ta2wiXSA9IHsKZm4gPSAiL2FwcHMvc3BhY2svbG1vZGZpbGVzL0NvcmUvaW50ZWwtb25lYXBpLW1rbC8yMDIzLjIuMC5sdWEiLApmdWxsTmFtZSA9ICJpbnRlbC1vbmVhcGktbWtsLzIwMjMuMi4wIiwKbG9hZE9yZGVyID0gMSwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDIsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJpbnRlbC1vbmVhcGktbWtsLzIwMjMuMi4wIiwKd1YgPSAiMDAwMDAyMDIzLjAwMDAwMDAwMi4qemZpbmFsIiwKfSwKbWluaWNvbmRhMyA9IHsKZm4gPSAiL2FwcHMvc3BhY2svbG1vZGZpbGVzL0NvcmUvbWluaWNvbmRhMy8yNC4xLjItcHkzMTAubHVhIiwKZnVsbE5hbWUgPSAibWluaWNvbmRhMy8yNC4xLjItcHkzMTAiLApsb2Fk
+_ModuleTable003_=T3JkZXIgPSA1LApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gIm1pbmljb25kYTMiLAp3ViA9ICIwMDAwMDAwMjQuMDAwMDAwMDAxLjAwMDAwMDAwMi4qeS4wMDAwMDAzMTAuKnpmaW5hbCIsCn0sCm1vZHVsZXMgPSB7CmZuID0gIi9hcHBzL2xtb2RmaWxlcy9Db3JlL21vZHVsZXMvc3AyMDI0Lmx1YSIsCmZ1bGxOYW1lID0gIm1vZHVsZXMvc3AyMDI0IiwKbG9hZE9yZGVyID0gNCwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDAsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJtb2R1bGVzIiwKd1YgPSAiXnNwLjAwMDAwMjAyNC4qemZpbmFsIiwKfSwKbXZhcGljaCA9IHsKZm4gPSAiL2FwcHMvc3BhY2svMC4y
+_ModuleTable004_=MS9jYXJkaW5hbC9sbW9kZmlsZXMvaW50ZWwvMjAyMS4xMC4wL212YXBpY2gvMy4wLmx1YSIsCmZ1bGxOYW1lID0gIm12YXBpY2gvMy4wIiwKbG9hZE9yZGVyID0gMywKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJtdmFwaWNoIiwKd1YgPSAiMDAwMDAwMDAzLip6ZmluYWwiLAp9LAp9LAptcGF0aEEgPSB7CiIvYXBwcy9sbW9kZmlsZXMvTVBJL2ludGVsLzIwMjEuMTAvbXZhcGljaC8zLjAiCiwgIi9hcHBzL3NwYWNrLzAuMjEvY2FyZGluYWwvbG1vZGZpbGVzL212YXBpY2gvMy4wLW1tcml1c3UvaW50ZWwvMjAyMS4xMC4wIgosICIvYXBwcy9sbW9kZmlsZXMvQ29tcGlsZXIvaW50ZWwvMjAyMS4xMCIKLCAiL2FwcHMv
+_ModuleTable005_=c3BhY2svMC4yMS9jYXJkaW5hbC9sbW9kZmlsZXMvaW50ZWwvMjAyMS4xMC4wIiwgIi9hcHBzL2xtb2RmaWxlcy9MaW51eCIKLCAiL2FwcHMvbG1vZGZpbGVzL0NvcmUiLCAiL2FwcHMvc3BhY2svbG1vZGZpbGVzL0NvcmUiLCAiL2FwcHMvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLAp9LApzeXN0ZW1CYXNlTVBBVEggPSAiL2FwcHMvbG1vZGZpbGVzL0xpbnV4Oi9hcHBzL2xtb2RmaWxlcy9Db3JlOi9hcHBzL3NwYWNrL2xtb2RmaWxlcy9Db3JlOi9hcHBzL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIiwKfQo=
+_ModuleTable_Sz_=5
+MOTD_SHOWN=pam
+MPICC=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/bin/mpicc
+MPI_CFLAGS=-I/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/include
+MPICH_HOME=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu
+MPICXX=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/bin/mpicxx
+MPI_CXXFLAGS=-I/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/include
+MPIF77=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/bin/mpif77
+MPIF90=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/bin/mpif90
+MPI_F90FLAGS=-I/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/include
+MPI_FFLAGS=-I/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/include
+MPI_LIBS=-L/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/lib -lmpich -libverbs -lpthread
+MPI_ROOT=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu
+MVAPICH_HOME=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu
+MVP_CPU_BINDING_POLICY=hybrid
+MVP_HOMOGENEOUS_CLUSTER=1
+MVP_HYBRID_BINDING_POLICY=linear
+MVP_IBA_HCA=mlx5_0
+MVP_USE_RDMA_CM=0
+NLSPATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib/intel64/locale/%l_%t/%N:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/compiler/lib/intel64_lin/locale/%l_%t/%N
+NXF_SINGULARITY_CACHEDIR=/fs/ess/project/PAS0471/containers
+OCL_ICD_FILENAMES=libintelocl_emu.so:libalteracl.so:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/linux/lib/x64/libintelocl.so
+OLDPWD=/fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps/mcic-scripts
+OMPI_MCA_plm_slurm_args=--external-launcher
+OSC_CC=icc
+OSC_CXX=icpc
+OSC_F77=ifort
+OSC_F90=ifort
+OSC_FAMILY_COMPILER=intel
+OSC_FAMILY_COMPILER_VERSION=2021.10.0
+OSC_FAMILY_MPI=mvapich
+OSC_FAMILY_MPI_VERSION=3.0
+OSC_FC=ifort
+OSC_INTEL_DIR=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers-classic/gcc/11.3.1/2021.10.0-6xj4c3p
+OSC_INTEL_ONEAPI_COMPILERS_CLASSIC_DIR=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers-classic/gcc/11.3.1/2021.10.0-6xj4c3p
+OSC_INTEL_ONEAPI_MKL_DIR=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty
+OSC_MINICONDA3_DIR=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5
+OSC_MODULES_DIR=/apps/modules/sp2024
+OSC_MPI_CC=mpicc
+OSC_MPI_CXX=mpic++
+OSC_MPI_FC=mpifort
+OSC_MVAPICH_DIR=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu
+PATH=/fs/ess/PAS0471/jelmer/conda/clipkit/bin:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/condabin:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/bin:/fs/ess/PAS0471/jelmer/conda/seqkit/bin:/users/PAS0471/jelmer/micromamba/condabin:/apps/xalt/xalt/bin:/opt/mvapich2/intel/19.0/2.3.3/bin:/apps/gnu/8.4.0/bin:/opt/intel/19.0.5/itac_latest/bin:/opt/intel/19.0.5/advisor/bin64:/opt/intel/19.0.5/vtune_amplifier/bin64:/opt/intel/19.0.5/inspector_2019/bin64:/opt/intel/19.0.5/compilers_and_libraries_2019/linux/bin/intel64:/apps/software_usage:/usr/lib64/qt-3.3/bin:/opt/osc/bin:/opt/moab/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/ddn/ime/bin:/opt/puppetlabs/bin:/users/PAS0471/jelmer/software/bin:/users/PAS0471/jelmer/.local/bin
+PDSH_RCMD_TYPE=ssh
+PDSH_SSH_ARGS_APPEND=-oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oLogLevel=ERROR
+PFSDIR=/fs/scratch/PAS0471/jelmer/662332.cardinal
+PKG_CONFIG_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/miniconda3/gcc/11.3.1/24.1.2-py310-4ptz5q5/lib/pkgconfig:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/lib/pkgconfig:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib/pkgconfig:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/lib/pkgconfig:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/lib/pkgconfig
+PRTE_MCA_plm_slurm_args=--external-launcher
+PWD=/fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps
+ return $__lmod_my_status
+SBCAST_SHMDIR=/dev/shm/slurm.662332.0/dev_shm
+S_COLORS=auto
+ set +$__lmod_sh_dbg;
+ set -$__lmod_sh_dbg;
+SHELL=/bin/bash
+SHLVL=4
+SHMDIR=/dev/shm
+SLURM_CLUSTER_NAME=cardinal
+SLURM_CONF=/var/spool/slurmd/conf-cache/slurm.conf
+SLURM_CPUS_ON_NODE=1
+SLURM_CPUS_PER_TASK=1
+SLURMD_NODENAME=c0326
+SLURM_GTIDS=0
+SLURM_JOB_ACCOUNT=pas0471
+SLURM_JOB_CPUS_PER_NODE=1
+SLURM_JOB_END_TIME=1741025301
+SLURM_JOB_GID=3773
+SLURM_JOB_ID=662332
+SLURM_JOBID=662332
+SLURM_JOB_NAME=clipkit
+SLURM_JOB_NODELIST=c0326
+SLURM_JOB_NUM_NODES=1
+SLURM_JOB_PARTITION=condo-ccapp-backfill
+SLURM_JOB_QOS=cardinal-default
+SLURM_JOB_START_TIME=1741021701
+SLURM_JOB_UID=33227
+SLURM_JOB_USER=jelmer
+SLURM_LOCALID=0
+SLURM_MEM_PER_NODE=4096
+SLURM_NNODES=1
+SLURM_NODEID=0
+SLURM_NODELIST=c0326
+SLURM_PRIO_PROCESS=0
+SLURM_PROCID=0
+SLURM_SCRIPT_CONTEXT=prolog_task
+SLURM_SUBMIT_DIR=/fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps
+SLURM_SUBMIT_HOST=cardinal-login02.hpc.osc.edu
+SLURM_TASK_PID=253470
+SLURM_TASKS_PER_NODE=1
+SLURM_TIME_LIMIT=3600
+SLURM_TOPOLOGY_ADDR=c0326
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+SLURM_TRES_PER_TASK=cpu=1
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_CLIENT=128.146.189.107 21073 22
+SSH_CONNECTION=128.146.189.107 21073 192.148.247.183 22
+SSL_CERT_DIR=/etc/pki/tls/certs
+SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+TERM_PROGRAM_VERSION=1.97.2
+TERM_PROGRAM=vscode
+TERM=xterm-256color
+threads=1
+TMPDIR=/tmp/slurmtmp.662332
+ unset __lmod_sh_dbg;
+USER=jelmer
+_=/usr/bin/env
+ *v*)
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VSCODE_GIT_ASKPASS_MAIN=/users/PAS0471/jelmer/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_NODE=/users/PAS0471/jelmer/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node
+VSCODE_GIT_IPC_HANDLE=/run/user/33227/vscode-git-59f1f1f5ba.sock
+VSCODE_IPC_HOOK_CLI=/run/user/33227/vscode-ipc-34c0262e-8057-4aac-903a-3dbf07aa6f88.sock
+ *v*x*)
+which_declare=declare -f
+ *x*)
+XDG_DATA_DIRS=/users/PAS0471/jelmer/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XDG_RUNTIME_DIR=/run/user/33227
+XDG_SESSION_CLASS=user
+XDG_SESSION_ID=4294967295
+XDG_SESSION_TYPE=tty
