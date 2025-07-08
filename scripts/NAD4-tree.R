@@ -39,7 +39,8 @@ meta <- tibble(ID = tree$tip.label) |>
   ) |>
   mutate(
     location = ifelse(location == "DQ176828.2", "other", location),
-    location = factor(location, levels = focal_locs)
+    location = factor(location, levels = focal_locs),
+    plotlab = ifelse(plotlab == "DQ176828.2", "(Ae. aegypti)", plotlab),
     )
 
 
