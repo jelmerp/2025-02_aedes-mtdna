@@ -56,19 +56,28 @@ sbatch mcic-scripts/trees/iqtree.sh \
 #                               NAD4
 # ==============================================================================
 # Define input files
-fa_aln=data/WBNAD4Aligned.fasta
+fa_in=data/NAD4CleanedUnaligned.txt
+ls -lh "$fa_in" && grep -c ">" "$fa_in"
 
 # Define output files
-outdir=results/NAD4 && mkdir -p "$outdir"
+outdir=results/NAD4 && mkdir -p "$outdir"/fasta
+fa_withrefs="$outdir"/fasta/NAD4_withrefs.fa
+
+# Add reference sequence
+cat "$fa_in" results/NAD4/refdata/DQ176828.2.fna > "$fa_withrefs"
+ls -lh "$fa_withrefs" && grep -c ">" "$fa_withrefs"
+
+# Align the sequences (with reference sequence)
+sbatch mcic-scripts/align/align_fa.sh -i "$fa_withrefs" -o "$outdir"/aligned
+ls -lh "$outdir"/aligned/NAD4_withrefs_aln.fa
 
 # Clip the alignment with ClipKit
-sbatch mcic-scripts/align/clipkit.sh -i "$fa_aln" -o "$outdir"/clipkit
+sbatch mcic-scripts/align/clipkit.sh -i "$outdir"/aligned/NAD4_withrefs_aln.fa -o "$outdir"/clipkit
+ls -lh "$outdir"/clipkit/NAD4_withrefs_aln.fa
 
 # Make a tree with IQ-Tree
 sbatch mcic-scripts/trees/iqtree.sh \
-    --infile "$outdir"/clipkit/WBNAD4Aligned.fasta \
+    --infile "$outdir"/clipkit/NAD4_withrefs_aln.fa \
     --outdir "$outdir"/iqtree \
     --nboot 1000 \
     --more_opts "--msub mitochondrial"
-
-#--root "$outgroup" \

@@ -1,0 +1,135 @@
+
+[2025-07-08 10:31:19] Loading Conda environment /fs/ess/PAS0471/jelmer/conda/mafft
+
+[2025-07-08 10:31:19] Starting script align_fa.sh, version 2025-03-05
+==========================================================================
+All options passed to this script:        -i results/NAD4/fasta/NAD4_withrefs.fa -o results/NAD4/aligned
+Input file:                               results/NAD4/fasta/NAD4_withrefs.fa
+Output file:                              results/NAD4/aligned/NAD4_withrefs_aln.fa
+
+[2025-07-08 10:31:19] Listing the input file(s):
+-rw-r--r-- 1 jelmer PAS0471 8.9K Jul  8 10:30 results/NAD4/fasta/NAD4_withrefs.fa
+
+[2025-07-08 10:31:19] SLURM job information:
+Account (project):                        pas0471
+Job ID:                                   1916728
+Job name:                                 align
+Memory (GB per node):                     20
+CPUs (on node):                           5
+Time limit (minutes):                     60
+==========================================================================
+
+
+[2025-07-08 10:31:19] Running MAFFT...
+nthread = 5
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   
+
+Step 2/2
+ 1 / 19 (5 threads)   
+makedirectionlist (nuc) Version 7.525
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+5 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+19 x 556 - 336 d
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: -1 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 19 (by thread   1)    10 / 19 (by thread   1) tbfast-pair (nuc) Version 7.525
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+5 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 19   10 / 19
+done.
+
+Progressive alignment ... 
+STEP     1 /18 (thread    0) STEP     2 /18 (thread    1) STEP     7 /18 (thread    1) STEP     3 /18 (thread    2) STEP     4 /18 (thread    3) STEP     5 /18 (thread    4) STEP    11 /18 (thread    4) STEP     6 /18 (thread    0) STEP     8 /18 (thread    1) STEP     9 /18 (thread    2) STEP    10 /18 (thread    3) STEP    12 /18 (thread    4) STEP    13 /18 (thread    0) STEP    14 /18 (thread    1) STEP    15 /18 (thread    2) STEP    16 /18 (thread    3) STEP    17 /18 (thread    4) STEP    18 /18 (thread    0) 
+done.
+tbfast (nuc) Version 7.525
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+5 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 5
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 19   10 / 19
+Segment   1/  1    1- 563
+001-0000-0 (thread    1) identical     001-0001-0 (thread    4) identical     001-0001-1 (thread    2) identical     001-0003-1 (thread    5) identical     001-0003-0 (thread    3) identical     001-0005-1 (thread    1) identical     001-0006-0 (thread    4) identical     001-0007-1 (thread    3) identical     001-0008-1 (thread    2) identical     001-0009-0 (thread    5) identical     001-0010-0 (thread    1) identical     001-0011-1 (thread    4) identical     001-0012-0 (thread    3) identical     001-0012-0 (thread    3) better     001-0013-1 (thread    1) identical     001-0014-1 (thread    3) identical     001-0014-1 (thread    3) better     001-0015-1 (thread    2) identical     001-0015-1 (thread    2) better     001-0016-0 (thread    2) identical     001-0016-0 (thread    2) better     001-0017-1 (thread    2) identical     001-0018-1 (thread    3) identical     001-0018-0 (thread    5) identical     001-0018-0 (thread    4) identical     001-0018-0 (thread    1) identical     001-0018-0 (thread    2) identical     001-0023-1 (thread    4) identical     001-0023-1 (thread    3) identical     001-0025-1 (thread    2) identical     001-0026-0 (thread    5) identical     001-0027-0 (thread    1) identical     001-0028-1 (thread    3) identical     001-0029-0 (thread    2) identical     001-0030-0 (thread    4) identical     001-0031-1 (thread    5) identical     001-0032-0 (thread    1) identical     001-0032-0 (thread    1) worse      001-0033-1 (thread    3) identical     001-0034-1 (thread    2) identical     002-0000-1 (thread    3) identical     002-0001-1 (thread    5) identical     002-0000-0 (thread    2) identical     002-0003-0 (thread    4) identical     002-0003-0 (thread    1) identical     002-0005-0 (thread    5) identical     002-0006-1 (thread    3) identical     002-0005-1 (thread    1) identical     002-0008-1 (thread    2) identical     002-0009-0 (thread    4) identical     002-0010-1 (thread    3) identical     002-0011-0 (thread    1) identical     002-0012-0 (thread    5) identical     002-0012-1 (thread    2) identical     002-0014-0 (thread    4) identical     002-0015-1 (thread    3) identical     002-0016-1 (thread    5) identical     002-0017-0 (thread    1) identical     002-0018-0 (thread    2) identical     002-0019-1 (thread    4) identical     002-0020-0 (thread    3) identical     002-0021-1 (thread    5) identical     002-0022-0 (thread    1) identical     002-0023-1 (thread    2) identical     002-0024-0 (thread    4) identical     002-0025-1 (thread    3) identical     002-0026-0 (thread    5) identical     002-0027-1 (thread    1) identical     002-0028-0 (thread    2) identical     002-0029-1 (thread    4) identical     002-0030-0 (thread    3) identical     002-0031-1 (thread    5) identical     002-0032-0 (thread    1) identical     002-0032-1 (thread    4) identical     002-0033-0 (thread    1) worse      002-0034-1 (thread    2) identical     
+Converged.
+done
+dvtditr (nuc) Version 7.525
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+5 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+
+# Ran the command: 
+mafft --reorder --auto --adjustdirection --leavegappyregion --thread 5 results/NAD4/fasta/NAD4_withrefs.fa
+        
+# Run stats by /usr/bin/time:
+        Time: 0:00.67   CPU: 124%    Max mem: 29760 K    Exit status: 0 
+
+
+[2025-07-08 10:31:20] Fixing FASTA headers...
+
+[2025-07-08 10:31:20] Listing files in the output dir:
+drwxr-xr-x 2 jelmer PAS0471 4.0K Jul  8 10:31 /fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps/results/NAD4/aligned/logs
+-rw-r--r-- 1 jelmer PAS0471  11K Jul  8 10:31 /fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps/results/NAD4/aligned/NAD4_withrefs_aln.fa
+
+======================================================================
+[2025-07-08 10:31:21] Versions used:
+
+[2025-07-08 10:31:21] Version of this shell script:
+align_fa.sh by Jelmer Poelstra, version 2025-03-05 (https://github.com/mcic-osu/mcic-scripts)
+
+[2025-07-08 10:31:21] Version of MAFFT:
+v7.525 (2024/Mar/13)
+
+JobID                                                           AllocTRES    Elapsed    CPUTime 
+------------ ------------------------------------------------------------ ---------- ---------- 
+1916728                                    billing=5,cpu=5,mem=20G,node=1   00:00:03   00:00:15 
+
+[2025-07-08 10:31:21] Successfully completed script align_fa.sh
+

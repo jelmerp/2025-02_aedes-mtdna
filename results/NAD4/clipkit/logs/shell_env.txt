@@ -119,11 +119,11 @@ MKL_SCALAPACK_LIBS=-L/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-
 MODULEPATH=/apps/lmodfiles/MPI/intel/2021.10/mvapich/3.0:/apps/spack/0.21/cardinal/lmodfiles/mvapich/3.0-mmriusu/intel/2021.10.0:/apps/lmodfiles/Compiler/intel/2021.10:/apps/spack/0.21/cardinal/lmodfiles/intel/2021.10.0:/apps/lmodfiles/Linux:/apps/lmodfiles/Core:/apps/spack/lmodfiles/Core:/apps/lmod/lmod/modulefiles/Core
 MODULEPATH_ROOT=/apps/lmodfiles
 MODULESHOME=/apps/lmod/lmod
-_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IDcyMDAuMCwKY19zaG9ydFRpbWUgPSAwLjA1MDQ1NDg1NDk2NTIxLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0gewpjb21waWxlciA9ICJpbnRlbCIsCm1waSA9ICJtdmFwaWNoIiwKfSwKbVQgPSB7CmludGVsID0gewpmbiA9ICIvYXBwcy9zcGFjay9sbW9kZmlsZXMvQ29yZS9pbnRlbC8yMDIxLjEwLjAubHVhIiwKZnVsbE5hbWUgPSAiaW50ZWwvMjAyMS4xMC4wIiwKbG9hZE9yZGVyID0gMiwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJpbnRlbCIsCndWID0gIjAwMDAwMjAyMS4wMDAwMDAwMTAuKnpmaW5hbCIsCn0sClsiaW50ZWwt
+_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IDcyMDAuMCwKY19zaG9ydFRpbWUgPSAwLjEwMTczMDgyMzUxNjg1LApkZXB0aFQgPSB7fSwKZmFtaWx5ID0gewpjb21waWxlciA9ICJpbnRlbCIsCm1waSA9ICJtdmFwaWNoIiwKfSwKbVQgPSB7CmludGVsID0gewpmbiA9ICIvYXBwcy9zcGFjay9sbW9kZmlsZXMvQ29yZS9pbnRlbC8yMDIxLjEwLjAubHVhIiwKZnVsbE5hbWUgPSAiaW50ZWwvMjAyMS4xMC4wIiwKbG9hZE9yZGVyID0gMiwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJpbnRlbCIsCndWID0gIjAwMDAwMjAyMS4wMDAwMDAwMTAuKnpmaW5hbCIsCn0sClsiaW50ZWwt
 _ModuleTable002_=b25lYXBpLW1rbCJdID0gewpmbiA9ICIvYXBwcy9zcGFjay9sbW9kZmlsZXMvQ29yZS9pbnRlbC1vbmVhcGktbWtsLzIwMjMuMi4wLmx1YSIsCmZ1bGxOYW1lID0gImludGVsLW9uZWFwaS1ta2wvMjAyMy4yLjAiLApsb2FkT3JkZXIgPSAxLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMiwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gImludGVsLW9uZWFwaS1ta2wvMjAyMy4yLjAiLAp3ViA9ICIwMDAwMDIwMjMuMDAwMDAwMDAyLip6ZmluYWwiLAp9LAptb2R1bGVzID0gewpmbiA9ICIvYXBwcy9sbW9kZmlsZXMvQ29yZS9tb2R1bGVzL3NwMjAyNC5sdWEiLApmdWxsTmFtZSA9ICJtb2R1bGVzL3NwMjAyNCIsCmxvYWRPcmRlciA9IDQsCnByb3BUID0ge30sCnN0YWNr
 _ModuleTable003_=RGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAibW9kdWxlcyIsCndWID0gIl5zcC4wMDAwMDIwMjQuKnpmaW5hbCIsCn0sCm12YXBpY2ggPSB7CmZuID0gIi9hcHBzL3NwYWNrLzAuMjEvY2FyZGluYWwvbG1vZGZpbGVzL2ludGVsLzIwMjEuMTAuMC9tdmFwaWNoLzMuMC5sdWEiLApmdWxsTmFtZSA9ICJtdmFwaWNoLzMuMCIsCmxvYWRPcmRlciA9IDMsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAibXZhcGljaCIsCndWID0gIjAwMDAwMDAwMy4qemZpbmFsIiwKfSwKfSwKbXBhdGhBID0gewoiL2FwcHMvbG1vZGZpbGVzL01QSS9pbnRlbC8yMDIxLjEwL212YXBpY2gvMy4wIiwgIi9hcHBzL3Nw
-_ModuleTable004_=YWNrLzAuMjEvY2FyZGluYWwvbG1vZGZpbGVzL212YXBpY2gvMy4wLW1tcml1c3UvaW50ZWwvMjAyMS4xMC4wIgosICIvYXBwcy9sbW9kZmlsZXMvQ29tcGlsZXIvaW50ZWwvMjAyMS4xMCIsICIvYXBwcy9zcGFjay8wLjIxL2NhcmRpbmFsL2xtb2RmaWxlcy9pbnRlbC8yMDIxLjEwLjAiLCAiL2FwcHMvbG1vZGZpbGVzL0xpbnV4IgosICIvYXBwcy9sbW9kZmlsZXMvQ29yZSIsICIvYXBwcy9zcGFjay9sbW9kZmlsZXMvQ29yZSIsICIvYXBwcy9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsCn0sCnN5c3RlbUJhc2VNUEFUSCA9ICIvYXBwcy9sbW9kZmlsZXMvTGludXg6L2FwcHMvbG1vZGZpbGVzL0NvcmU6L2FwcHMvc3BhY2svbG1vZGZpbGVzL0NvcmU6L2FwcHMvbG1vZC9s
-_ModuleTable005_=bW9kL21vZHVsZWZpbGVzL0NvcmUiLAp9Cg==
+_ModuleTable004_=YWNrLzAuMjEvY2FyZGluYWwvbG1vZGZpbGVzL212YXBpY2gvMy4wLW1tcml1c3UvaW50ZWwvMjAyMS4xMC4wIiwgIi9hcHBzL2xtb2RmaWxlcy9Db21waWxlci9pbnRlbC8yMDIxLjEwIiwgIi9hcHBzL3NwYWNrLzAuMjEvY2FyZGluYWwvbG1vZGZpbGVzL2ludGVsLzIwMjEuMTAuMCIKLCAiL2FwcHMvbG1vZGZpbGVzL0xpbnV4IiwgIi9hcHBzL2xtb2RmaWxlcy9Db3JlIiwgIi9hcHBzL3NwYWNrL2xtb2RmaWxlcy9Db3JlIiwgIi9hcHBzL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIiwKfSwKc3lzdGVtQmFzZU1QQVRIID0gIi9hcHBzL2xtb2RmaWxlcy9MaW51eDovYXBwcy9sbW9kZmlsZXMvQ29yZTovYXBwcy9zcGFjay9sbW9kZmlsZXMvQ29yZTovYXBwcy9sbW9kL2xt
+_ModuleTable005_=b2QvbW9kdWxlZmlsZXMvQ29yZSIsCn0K
 _ModuleTable_Sz_=5
 MOTD_SHOWN=pam
 MPICC=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/bin/mpicc
@@ -167,12 +167,12 @@ OSC_MVAPICH_DIR=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/int
 PATH=/apps/xalt/xalt/bin:/opt/mvapich2/intel/19.0/2.3.3/bin:/apps/gnu/8.4.0/bin:/opt/intel/19.0.5/itac_latest/bin:/opt/intel/19.0.5/advisor/bin64:/opt/intel/19.0.5/vtune_amplifier/bin64:/opt/intel/19.0.5/inspector_2019/bin64:/opt/intel/19.0.5/compilers_and_libraries_2019/linux/bin/intel64:/apps/software_usage:/usr/lib64/qt-3.3/bin:/opt/osc/bin:/opt/moab/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/ddn/ime/bin:/opt/puppetlabs/bin:/users/PAS0471/jelmer/software/bin/:/users/PAS0471/jelmer/.local/bin
 PDSH_RCMD_TYPE=ssh
 PDSH_SSH_ARGS_APPEND=-oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oLogLevel=ERROR
-PFSDIR=/fs/scratch/PAS0471/jelmer/1908861.cardinal
+PFSDIR=/fs/scratch/PAS0471/jelmer/1916749.cardinal
 PKG_CONFIG_PATH=/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/mvapich/intel/2021.10.0/3.0-mmriusu/lib/pkgconfig:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/mkl/2023.2.0/lib/pkgconfig:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-mkl/gcc/11.3.1/2023.2.0-wiyi3ty/lib/pkgconfig:/apps/spack/0.21/cardinal/linux-rhel9-sapphirerapids/intel-oneapi-compilers/gcc/11.3.1/2023.2.3-7rf6exw/compiler/2023.2.3/lib/pkgconfig
 PRTE_MCA_plm_slurm_args=--external-launcher
 PWD=/fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps
  return $__lmod_my_status
-SBCAST_SHMDIR=/dev/shm/slurm.1908861.0/dev_shm
+SBCAST_SHMDIR=/dev/shm/slurm.1916749.0/dev_shm
 S_COLORS=auto
  set +$__lmod_sh_dbg;
  set -$__lmod_sh_dbg;
@@ -187,16 +187,16 @@ SLURMD_NODENAME=c0326
 SLURM_GTIDS=0
 SLURM_JOB_ACCOUNT=pas0471
 SLURM_JOB_CPUS_PER_NODE=1
-SLURM_JOB_END_TIME=1751909152
+SLURM_JOB_END_TIME=1751988829
 SLURM_JOB_GID=3773
-SLURM_JOB_ID=1908861
-SLURM_JOBID=1908861
+SLURM_JOB_ID=1916749
+SLURM_JOBID=1916749
 SLURM_JOB_NAME=clipkit
 SLURM_JOB_NODELIST=c0326
 SLURM_JOB_NUM_NODES=1
 SLURM_JOB_PARTITION=condo-ccapp-backfill
 SLURM_JOB_QOS=cardinal-default
-SLURM_JOB_START_TIME=1751905552
+SLURM_JOB_START_TIME=1751985229
 SLURM_JOB_UID=33227
 SLURM_JOB_USER=jelmer
 SLURM_LOCALID=0
@@ -208,23 +208,23 @@ SLURM_PRIO_PROCESS=0
 SLURM_PROCID=0
 SLURM_SCRIPT_CONTEXT=prolog_task
 SLURM_SUBMIT_DIR=/fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps
-SLURM_SUBMIT_HOST=cardinal-login03.hpc.osc.edu
-SLURM_TASK_PID=1221002
+SLURM_SUBMIT_HOST=cardinal-login04.hpc.osc.edu
+SLURM_TASK_PID=1634011
 SLURM_TASKS_PER_NODE=1
 SLURM_TIME_LIMIT=3600
 SLURM_TOPOLOGY_ADDR=c0326
 SLURM_TOPOLOGY_ADDR_PATTERN=node
 SLURM_TRES_PER_TASK=cpu=1
 SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
-SSH_CLIENT=128.146.189.79 13505 22
-SSH_CONNECTION=128.146.189.79 13505 192.148.247.184 22
+SSH_CLIENT=128.146.189.79 12030 22
+SSH_CONNECTION=128.146.189.79 12030 192.148.247.185 22
 SSL_CERT_DIR=/etc/pki/tls/certs
 SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
 TERM_PROGRAM_VERSION=1.101.2
 TERM_PROGRAM=vscode
 TERM=xterm-256color
 threads=1
-TMPDIR=/tmp/slurmtmp.1908861
+TMPDIR=/tmp/slurmtmp.1916749
  unset __lmod_sh_dbg;
 USER=jelmer
 _=/usr/bin/env
@@ -233,7 +233,7 @@ VSCODE_GIT_ASKPASS_EXTRA_ARGS=
 VSCODE_GIT_ASKPASS_MAIN=/users/PAS0471/jelmer/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass-main.js
 VSCODE_GIT_ASKPASS_NODE=/users/PAS0471/jelmer/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/node
 VSCODE_GIT_IPC_HANDLE=/run/user/33227/vscode-git-59f1f1f5ba.sock
-VSCODE_IPC_HOOK_CLI=/run/user/33227/vscode-ipc-7e12748f-ccfb-42ee-889b-5a2d4bcc9b31.sock
+VSCODE_IPC_HOOK_CLI=/run/user/33227/vscode-ipc-8cb74144-f6cb-4cba-b494-32bdc7d5e55b.sock
  *v*x*)
 which_declare=declare -f
  *x*)

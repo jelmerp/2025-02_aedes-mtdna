@@ -1,0 +1,85 @@
+
+[2025-07-08 10:33:49] Using a container with base call: singularity exec /fs/ess/PAS0471/containers/clipkit_2.3.0--696fa0f33ad2b776.sif
+
+[2025-07-08 10:33:49] Starting script clipkit.sh, version 2025-01-04
+==========================================================================
+All options passed to this script:        -i results/NAD4/aligned/NAD4_withrefs_aln.fa -o results/NAD4/clipkit
+Input file:                               results/NAD4/aligned/NAD4_withrefs_aln.fa
+Output file:                              results/NAD4/clipkit/NAD4_withrefs_aln.fa
+
+[2025-07-08 10:33:49] Listing the input file(s):
+-rw-r--r-- 1 jelmer PAS0471 11K Jul  8 10:31 results/NAD4/aligned/NAD4_withrefs_aln.fa
+
+[2025-07-08 10:33:49] SLURM job information:
+Account (project):                        pas0471
+Job ID:                                   1916749
+Job name:                                 clipkit
+Memory (GB per node):                     4
+CPUs (on node):                           1
+Time limit (minutes):                     60
+==========================================================================
+
+
+[2025-07-08 10:33:49] Running ClipKIT...
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+
+-------------
+| Arguments |
+-------------
+Input file: results/NAD4/aligned/NAD4_withrefs_aln.fa (format: fasta)
+Output file: results/NAD4/clipkit/NAD4_withrefs_aln.fa (format: fasta)
+Sequence type: Nucleotides
+Gaps threshold: 0.8421
+Gap characters: ['-', '?', '*', 'X', 'x', 'N', 'n']
+Trimming mode: smart-gap
+Create complementary output: False
+Process as codons: False
+Create log file: False
+
+
+------------------------
+| Writing output files |
+------------------------
+Trimmed alignment: results/NAD4/clipkit/NAD4_withrefs_aln.fa
+Complement file: False
+Log file: False
+
+
+---------------------
+| Output Statistics |
+---------------------
+Original length: 562
+Number of sites kept: 451
+Number of sites trimmed: 111
+Percentage of alignment trimmed: 19.751%
+
+Execution time: 0.018s
+
+
+# Ran the command: 
+singularity exec /fs/ess/PAS0471/containers/clipkit_2.3.0--696fa0f33ad2b776.sif clipkit results/NAD4/aligned/NAD4_withrefs_aln.fa --output results/NAD4/clipkit/NAD4_withrefs_aln.fa --mode smart-gap
+        
+# Run stats by /usr/bin/time:
+        Time: 0:01.60   CPU: 47%    Max mem: 46216 K    Exit status: 0 
+
+
+[2025-07-08 10:33:51] Listing files in the output dir:
+drwxr-xr-x 2 jelmer PAS0471 4.0K Jul  8 10:33 /fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps/results/NAD4/clipkit/logs
+-rw-r--r-- 1 jelmer PAS0471 8.9K Jul  8 10:33 /fs/ess/PAS0471/jelmer/assist/2025-02_ferd-haps/results/NAD4/clipkit/NAD4_withrefs_aln.fa
+
+======================================================================
+[2025-07-08 10:33:51] Versions used:
+
+[2025-07-08 10:33:51] Version of this shell script:
+clipkit.sh by Jelmer Poelstra, version 2025-01-04 (https://github.com/mcic-osu/mcic-scripts)
+
+[2025-07-08 10:33:51] Version of ClipKIT:
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+clipkit 2.3.0
+
+JobID                                                           AllocTRES    Elapsed    CPUTime 
+------------ ------------------------------------------------------------ ---------- ---------- 
+1916749                                     billing=1,cpu=1,mem=4G,node=1   00:00:03   00:00:03 
+
+[2025-07-08 10:33:52] Successfully completed script clipkit.sh
+

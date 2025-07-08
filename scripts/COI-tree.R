@@ -17,7 +17,7 @@ tree_file <- "results/COI/iqtree/COI_withrefs_aln.treefile"
 meta_refs_file <- "metadata/refs_meta.tsv"
 
 # Define output files
-outdir <- "results/plots"
+outdir <- "results/COI/plots"
 dir.create(outdir, showWarnings = FALSE, recursive = TRUE)
 plotfile_png <- file.path(outdir, "COI-tree.png")
 plotfile_svg <- file.path(outdir, "COI-tree.svg")
