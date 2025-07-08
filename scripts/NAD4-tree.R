@@ -68,9 +68,9 @@ ggtree(tree, size = 0.5, layout = "circular") %<+%
   scale_color_manual(values = loc_cols, name = "Location") +
   guides(color = "none") +
   theme(
-    plot.margin = margin(1, 1, 1, 0, "cm"),
+    plot.margin = margin(1, 1, 1, 1, "cm"),
     legend.title = element_text(face = "bold")
   )
 
-ggsave(plotfile_png, width = 8, height = 8, dpi = 600)
-ggsave(plotfile_svg, width = 14, height = 7)
+ggsave(plotfile_png, width = 8, height = 7, dpi = 600)
+ggsave(plotfile_svg, width = 8, height = 7)
